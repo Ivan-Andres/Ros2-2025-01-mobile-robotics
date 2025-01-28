@@ -1,5 +1,0 @@
-[0.008s] Invoking command in '/home/ivan/ros2_ws_2501/build/f112th_sim_2501_alpha': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ivan/ros2_ws_2501/build/f112th_sim_2501_alpha -- -j12 -l12
-[0.020s] [0mCMake Error: The source directory "/home/ivan/ros2_ws_2501/src/f112th_sim_2501_alpha-" does not exist.
-[0.020s] Specify --help for usage, or press the help button on the CMake GUI.[0m
-[0.020s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
-[0.022s] Invoked command in '/home/ivan/ros2_ws_2501/build/f112th_sim_2501_alpha' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ivan/ros2_ws_2501/build/f112th_sim_2501_alpha -- -j12 -l12
