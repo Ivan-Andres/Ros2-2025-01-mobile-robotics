@@ -1,0 +1,49 @@
+[0.014s] Invoking command in '/home/ivan/ros2_ws_2501/build/f112th_sim_2501_alpha': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivan/ros2_ws_2501/install/joy_tester:/opt/ros/humble /usr/bin/cmake --build /home/ivan/ros2_ws_2501/build/f112th_sim_2501_alpha -- -j12 -l12
+[0.045s] [35m[1mConsolidate compiler generated dependencies of target laser_scan_reader[0m
+[0.058s] [ 50%] [32mBuilding CXX object CMakeFiles/laser_scan_reader.dir/src/laser_scan_reader.cpp.o[0m
+[9.167s] [100%] [32m[1mLinking CXX executable laser_scan_reader[0m
+[9.598s] [100%] Built target laser_scan_reader
+[9.611s] Invoked command in '/home/ivan/ros2_ws_2501/build/f112th_sim_2501_alpha' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivan/ros2_ws_2501/install/joy_tester:/opt/ros/humble /usr/bin/cmake --build /home/ivan/ros2_ws_2501/build/f112th_sim_2501_alpha -- -j12 -l12
+[9.619s] Invoking command in '/home/ivan/ros2_ws_2501/build/f112th_sim_2501_alpha': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivan/ros2_ws_2501/install/joy_tester:/opt/ros/humble /usr/bin/cmake --install /home/ivan/ros2_ws_2501/build/f112th_sim_2501_alpha
+[9.624s] -- Install configuration: ""
+[9.624s] -- Execute custom install script
+[9.624s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/lib/f112th_sim_2501_alpha/laser_scan_reader
+[9.624s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/config/joystick.yaml
+[9.625s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/config/parms.yaml
+[9.625s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/config/twist_mux.yaml
+[9.625s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/description/acker.urdf.xacro
+[9.625s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/description/gazebo_control.xacro
+[9.625s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/description/inertial_macros.xacro
+[9.625s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/description/lidar.xacro
+[9.625s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/description/properties.xacro
+[9.625s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/description/robot.urdf.xacro
+[9.625s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/description/robot_core.xacro
+[9.625s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/description/rviz_model.rviz
+[9.626s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/launch/acker.launch.py
+[9.626s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/launch/joystick.launch.py
+[9.626s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/launch/launch_sim.launch.py
+[9.626s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/launch/launch_sim_ackerman.launch.py
+[9.626s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/launch/rsp.launch.py
+[9.626s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/launch/twist_mux.launch.py
+[9.626s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/worlds/1frstworld.world
+[9.626s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/worlds/empty.world
+[9.626s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/worlds/my_world.world
+[9.626s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/worlds/wall/model.config
+[9.626s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/worlds/wall/model.sdf
+[9.627s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/src/laser_scan_reader.cpp
+[9.627s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/ament_index/resource_index/package_run_dependencies/f112th_sim_2501_alpha
+[9.627s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/ament_index/resource_index/parent_prefix_path/f112th_sim_2501_alpha
+[9.627s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/environment/ament_prefix_path.sh
+[9.627s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/environment/ament_prefix_path.dsv
+[9.627s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/environment/path.sh
+[9.627s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/environment/path.dsv
+[9.627s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/local_setup.bash
+[9.627s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/local_setup.sh
+[9.628s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/local_setup.zsh
+[9.628s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/local_setup.dsv
+[9.628s] -- Symlinking: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/package.dsv
+[9.634s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/ament_index/resource_index/packages/f112th_sim_2501_alpha
+[9.634s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/cmake/f112th_sim_2501_alphaConfig.cmake
+[9.634s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/cmake/f112th_sim_2501_alphaConfig-version.cmake
+[9.635s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/package.xml
+[9.636s] Invoked command in '/home/ivan/ros2_ws_2501/build/f112th_sim_2501_alpha' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivan/ros2_ws_2501/install/joy_tester:/opt/ros/humble /usr/bin/cmake --install /home/ivan/ros2_ws_2501/build/f112th_sim_2501_alpha

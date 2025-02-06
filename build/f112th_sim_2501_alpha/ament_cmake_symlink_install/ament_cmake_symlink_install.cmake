@@ -310,8 +310,11 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(DIRECTORY "config" "description" "launch" "worlds" "DESTINATION" "share/f112th_sim_2501_alpha")
-ament_cmake_symlink_install_directory("/home/ivan/ros2_ws_2501/src/f112th_sim_2501_alpha" DIRECTORY "config" "description" "launch" "worlds" "DESTINATION" "share/f112th_sim_2501_alpha")
+# install("TARGETS" "laser_scan_reader" "DESTINATION" "lib/f112th_sim_2501_alpha")
+include("/home/ivan/ros2_ws_2501/build/f112th_sim_2501_alpha/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(DIRECTORY "config" "description" "launch" "worlds" "src" "DESTINATION" "share/f112th_sim_2501_alpha")
+ament_cmake_symlink_install_directory("/home/ivan/ros2_ws_2501/src/f112th_sim_2501_alpha" DIRECTORY "config" "description" "launch" "worlds" "src" "DESTINATION" "share/f112th_sim_2501_alpha")
 
 # install(FILES "/home/ivan/ros2_ws_2501/build/f112th_sim_2501_alpha/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/f112th_sim_2501_alpha" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/ivan/ros2_ws_2501/src/f112th_sim_2501_alpha" FILES "/home/ivan/ros2_ws_2501/build/f112th_sim_2501_alpha/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/f112th_sim_2501_alpha" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

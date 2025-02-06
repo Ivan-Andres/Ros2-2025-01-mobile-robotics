@@ -197,6 +197,43 @@ f112th_sim_2501_alpha_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/f112th_sim_2501_alpha_uninstall.dir/build.make CMakeFiles/f112th_sim_2501_alpha_uninstall.dir/build
 .PHONY : f112th_sim_2501_alpha_uninstall/fast
 
+#=============================================================================
+# Target rules for targets named laser_scan_reader
+
+# Build rule for target.
+laser_scan_reader: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 laser_scan_reader
+.PHONY : laser_scan_reader
+
+# fast build rule for target.
+laser_scan_reader/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laser_scan_reader.dir/build.make CMakeFiles/laser_scan_reader.dir/build
+.PHONY : laser_scan_reader/fast
+
+src/laser_scan_reader.o: src/laser_scan_reader.cpp.o
+.PHONY : src/laser_scan_reader.o
+
+# target to build an object file
+src/laser_scan_reader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laser_scan_reader.dir/build.make CMakeFiles/laser_scan_reader.dir/src/laser_scan_reader.cpp.o
+.PHONY : src/laser_scan_reader.cpp.o
+
+src/laser_scan_reader.i: src/laser_scan_reader.cpp.i
+.PHONY : src/laser_scan_reader.i
+
+# target to preprocess a source file
+src/laser_scan_reader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laser_scan_reader.dir/build.make CMakeFiles/laser_scan_reader.dir/src/laser_scan_reader.cpp.i
+.PHONY : src/laser_scan_reader.cpp.i
+
+src/laser_scan_reader.s: src/laser_scan_reader.cpp.s
+.PHONY : src/laser_scan_reader.s
+
+# target to generate assembly for a file
+src/laser_scan_reader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laser_scan_reader.dir/build.make CMakeFiles/laser_scan_reader.dir/src/laser_scan_reader.cpp.s
+.PHONY : src/laser_scan_reader.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -212,6 +249,10 @@ help:
 	@echo "... test"
 	@echo "... f112th_sim_2501_alpha_uninstall"
 	@echo "... uninstall"
+	@echo "... laser_scan_reader"
+	@echo "... src/laser_scan_reader.o"
+	@echo "... src/laser_scan_reader.i"
+	@echo "... src/laser_scan_reader.s"
 .PHONY : help
 
 

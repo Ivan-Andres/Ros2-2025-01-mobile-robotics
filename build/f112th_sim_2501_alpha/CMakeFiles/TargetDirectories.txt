@@ -1,5 +1,6 @@
 /home/ivan/ros2_ws_2501/build/f112th_sim_2501_alpha/CMakeFiles/uninstall.dir
 /home/ivan/ros2_ws_2501/build/f112th_sim_2501_alpha/CMakeFiles/f112th_sim_2501_alpha_uninstall.dir
+/home/ivan/ros2_ws_2501/build/f112th_sim_2501_alpha/CMakeFiles/laser_scan_reader.dir
 /home/ivan/ros2_ws_2501/build/f112th_sim_2501_alpha/CMakeFiles/test.dir
 /home/ivan/ros2_ws_2501/build/f112th_sim_2501_alpha/CMakeFiles/edit_cache.dir
 /home/ivan/ros2_ws_2501/build/f112th_sim_2501_alpha/CMakeFiles/rebuild_cache.dir

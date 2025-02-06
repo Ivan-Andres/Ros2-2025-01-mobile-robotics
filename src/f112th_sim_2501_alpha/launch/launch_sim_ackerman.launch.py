@@ -49,6 +49,14 @@ def generate_launch_description():
                     remappings=[('/cmd_vel_out','/cmd_vel')]
     )
 
+    #Agregar tu nodo laser_scan_reader aquí
+    laser_scan_reader_node = Node(
+        package=package_name,  # Reemplaza 'tu_paquete' con el nombre de tu paquete
+        executable='laser_scan_reader',  # Nombre del ejecutable de tu nodo
+        output='screen',  # Esto hace que el nodo imprima en la consola
+        parameters=[{'use_sim_time': True}]  # Parametro de tiempo de simulación (si es necesario)
+    )
+
     # Launch them all!
     return LaunchDescription([
         ackerman,
@@ -56,4 +64,5 @@ def generate_launch_description():
         spawn_entity,
         joystick,
         twist_mux_node,
+        laser_scan_reader_node,
     ])

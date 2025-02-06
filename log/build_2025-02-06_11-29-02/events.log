@@ -1,0 +1,128 @@
+[0.000000] (-) TimerEvent: {}
+[0.000463] (f112th_sim_2501_alpha) JobQueued: {'identifier': 'f112th_sim_2501_alpha', 'dependencies': OrderedDict()}
+[0.000495] (joy_tester) JobQueued: {'identifier': 'joy_tester', 'dependencies': OrderedDict()}
+[0.000515] (f112th_sim_2501_alpha) JobStarted: {'identifier': 'f112th_sim_2501_alpha'}
+[0.005900] (joy_tester) JobStarted: {'identifier': 'joy_tester'}
+[0.012658] (f112th_sim_2501_alpha) JobProgress: {'identifier': 'f112th_sim_2501_alpha', 'progress': 'cmake'}
+[0.013269] (f112th_sim_2501_alpha) JobProgress: {'identifier': 'f112th_sim_2501_alpha', 'progress': 'build'}
+[0.013889] (f112th_sim_2501_alpha) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ivan/ros2_ws_2501/build/f112th_sim_2501_alpha', '--', '-j12', '-l12'], 'cwd': '/home/ivan/ros2_ws_2501/build/f112th_sim_2501_alpha', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'es_PE:es'), ('USER', 'ivan'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ivan'), ('OLDPWD', '/home/ivan'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1805'), ('SYSTEMD_EXEC_PID', '1984'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3690'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ivan/ros2_ws_2501/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ivan'), ('JOURNAL_STREAM', '8:3010'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ivan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ivan-GL75:@/tmp/.ICE-unix/1956,unix/ivan-GL75:/tmp/.ICE-unix/1956'), ('INVOCATION_ID', 'f5e2272444f54d768b9934a07596bb7e'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'es_PE.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.FQLE12'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ivan/ros2_ws_2501/install/joy_tester:/home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:976aef2b-a9b7-4f85-aafd-9f921b443e46'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ivan/ros2_ws_2501/build/f112th_sim_2501_alpha'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ivan/ros2_ws_2501/build/joy_tester:/home/ivan/ros2_ws_2501/install/joy_tester/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha:/home/ivan/ros2_ws_2501/install/joy_tester:/opt/ros/humble')]), 'shell': False}
+[0.057220] (f112th_sim_2501_alpha) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/laser_scan_reader.dir/src/laser_scan_reader.cpp.o\x1b[0m\n'}
+[0.099686] (-) TimerEvent: {}
+[0.199963] (-) TimerEvent: {}
+[0.300244] (-) TimerEvent: {}
+[0.400548] (-) TimerEvent: {}
+[0.500818] (-) TimerEvent: {}
+[0.596371] (joy_tester) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ivan/ros2_ws_2501/build/joy_tester/build', '--no-deps', 'symlink_data'], 'cwd': '/home/ivan/ros2_ws_2501/build/joy_tester', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'es_PE:es', 'USER': 'ivan', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ivan', 'OLDPWD': '/home/ivan', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1805', 'SYSTEMD_EXEC_PID': '1984', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3690', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ivan/ros2_ws_2501/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ivan', 'JOURNAL_STREAM': '8:3010', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ivan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ivan-GL75:@/tmp/.ICE-unix/1956,unix/ivan-GL75:/tmp/.ICE-unix/1956', 'INVOCATION_ID': 'f5e2272444f54d768b9934a07596bb7e', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'es_PE.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.FQLE12', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ivan/ros2_ws_2501/install/joy_tester:/home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:976aef2b-a9b7-4f85-aafd-9f921b443e46', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ivan/ros2_ws_2501/build/joy_tester', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ivan/ros2_ws_2501/build/joy_tester/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/ros2_ws_2501/install/joy_tester/lib/python3.10/site-packages:/home/ivan/ros2_ws_2501/build/joy_tester:/home/ivan/ros2_ws_2501/install/joy_tester/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha'}, 'shell': False}
+[0.600893] (-) TimerEvent: {}
+[0.701125] (-) TimerEvent: {}
+[0.801372] (-) TimerEvent: {}
+[0.857657] (joy_tester) StdoutLine: {'line': b'running develop\n'}
+[0.901468] (-) TimerEvent: {}
+[1.001709] (-) TimerEvent: {}
+[1.035513] (joy_tester) StdoutLine: {'line': b'running egg_info\n'}
+[1.035790] (joy_tester) StdoutLine: {'line': b'writing joy_tester.egg-info/PKG-INFO\n'}
+[1.035972] (joy_tester) StdoutLine: {'line': b'writing dependency_links to joy_tester.egg-info/dependency_links.txt\n'}
+[1.036125] (joy_tester) StdoutLine: {'line': b'writing entry points to joy_tester.egg-info/entry_points.txt\n'}
+[1.036289] (joy_tester) StdoutLine: {'line': b'writing requirements to joy_tester.egg-info/requires.txt\n'}
+[1.036389] (joy_tester) StdoutLine: {'line': b'writing top-level names to joy_tester.egg-info/top_level.txt\n'}
+[1.037839] (joy_tester) StdoutLine: {'line': b"reading manifest file 'joy_tester.egg-info/SOURCES.txt'\n"}
+[1.038460] (joy_tester) StdoutLine: {'line': b"writing manifest file 'joy_tester.egg-info/SOURCES.txt'\n"}
+[1.039636] (joy_tester) StdoutLine: {'line': b'running build_ext\n'}
+[1.039810] (joy_tester) StdoutLine: {'line': b'Creating /home/ivan/ros2_ws_2501/install/joy_tester/lib/python3.10/site-packages/joy-tester.egg-link (link to .)\n'}
+[1.040594] (joy_tester) StdoutLine: {'line': b'Installing test_joy script to /home/ivan/ros2_ws_2501/install/joy_tester/lib/joy_tester\n'}
+[1.040804] (joy_tester) StdoutLine: {'line': b'\n'}
+[1.040913] (joy_tester) StdoutLine: {'line': b'Installed /home/ivan/ros2_ws_2501/build/joy_tester\n'}
+[1.041020] (joy_tester) StdoutLine: {'line': b'running symlink_data\n'}
+[1.067049] (joy_tester) CommandEnded: {'returncode': 0}
+[1.077617] (joy_tester) JobEnded: {'identifier': 'joy_tester', 'rc': 0}
+[1.101801] (-) TimerEvent: {}
+[1.202082] (-) TimerEvent: {}
+[1.302349] (-) TimerEvent: {}
+[1.402620] (-) TimerEvent: {}
+[1.502880] (-) TimerEvent: {}
+[1.603185] (-) TimerEvent: {}
+[1.703463] (-) TimerEvent: {}
+[1.803671] (-) TimerEvent: {}
+[1.903901] (-) TimerEvent: {}
+[2.004136] (-) TimerEvent: {}
+[2.104388] (-) TimerEvent: {}
+[2.180181] (f112th_sim_2501_alpha) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ivan/ros2_ws_2501/src/f112th_sim_2501_alpha/src/laser_scan_reader.cpp:120:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 at end of input\n'}
+[2.180357] (f112th_sim_2501_alpha) StderrLine: {'line': b'  120 | }\n'}
+[2.180418] (f112th_sim_2501_alpha) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.180473] (f112th_sim_2501_alpha) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ivan/ros2_ws_2501/src/f112th_sim_2501_alpha/src/laser_scan_reader.cpp:6:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.180528] (f112th_sim_2501_alpha) StderrLine: {'line': b'    6 | \x1b[01;36m\x1b[K{\x1b[m\x1b[K\n'}
+[2.180581] (f112th_sim_2501_alpha) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[2.188305] (f112th_sim_2501_alpha) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ivan/ros2_ws_2501/src/f112th_sim_2501_alpha/src/laser_scan_reader.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KLaserBrakeNode::LaserBrakeNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.188431] (f112th_sim_2501_alpha) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ivan/ros2_ws_2501/src/f112th_sim_2501_alpha/src/laser_scan_reader.cpp:11:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klaser_subscription_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcreate_subscription\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.188499] (f112th_sim_2501_alpha) StderrLine: {'line': b'   11 |         \x1b[01;31m\x1b[Klaser_subscription_\x1b[m\x1b[K = this->create_subscription<sensor_msgs::msg::LaserScan>(\n'}
+[2.188559] (f112th_sim_2501_alpha) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.188629] (f112th_sim_2501_alpha) StderrLine: {'line': b'      |         \x1b[32m\x1b[Kcreate_subscription\x1b[m\x1b[K\n'}
+[2.204482] (-) TimerEvent: {}
+[2.238521] (f112th_sim_2501_alpha) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ivan/ros2_ws_2501/src/f112th_sim_2501_alpha/src/laser_scan_reader.cpp:16:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcmd_vel_subscription_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcreate_subscription\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.238743] (f112th_sim_2501_alpha) StderrLine: {'line': b'   16 |         \x1b[01;31m\x1b[Kcmd_vel_subscription_\x1b[m\x1b[K = this->create_subscription<geometry_msgs::msg::Twist>(\n'}
+[2.238850] (f112th_sim_2501_alpha) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.238946] (f112th_sim_2501_alpha) StderrLine: {'line': b'      |         \x1b[32m\x1b[Kcreate_subscription\x1b[m\x1b[K\n'}
+[2.239040] (f112th_sim_2501_alpha) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ivan/ros2_ws_2501/src/f112th_sim_2501_alpha/src/laser_scan_reader.cpp:18:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KcmdVelCallback\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[KLaserBrakeNode\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.239137] (f112th_sim_2501_alpha) StderrLine: {'line': b'   18 |             std::bind(&LaserBrakeNode::\x1b[01;31m\x1b[KcmdVelCallback\x1b[m\x1b[K, this, std::placeholders::_1));\n'}
+[2.239247] (f112th_sim_2501_alpha) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.244466] (f112th_sim_2501_alpha) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ivan/ros2_ws_2501/src/f112th_sim_2501_alpha/src/laser_scan_reader.cpp:21:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbrake_publisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcreate_publisher\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.244570] (f112th_sim_2501_alpha) StderrLine: {'line': b'   21 |         \x1b[01;31m\x1b[Kbrake_publisher_\x1b[m\x1b[K = this->create_publisher<geometry_msgs::msg::Twist>("/cmd_vel_break", 10);\n'}
+[2.244645] (f112th_sim_2501_alpha) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.244706] (f112th_sim_2501_alpha) StderrLine: {'line': b'      |         \x1b[32m\x1b[Kcreate_publisher\x1b[m\x1b[K\n'}
+[2.254368] (f112th_sim_2501_alpha) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ivan/ros2_ws_2501/src/f112th_sim_2501_alpha/src/laser_scan_reader.cpp:24:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kttc_threshold_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.254533] (f112th_sim_2501_alpha) StderrLine: {'line': b'   24 |         \x1b[01;31m\x1b[Kttc_threshold_\x1b[m\x1b[K = 0.02;\n'}
+[2.254608] (f112th_sim_2501_alpha) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.262774] (f112th_sim_2501_alpha) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ivan/ros2_ws_2501/src/f112th_sim_2501_alpha/src/laser_scan_reader.cpp:25:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcurrent_velocity_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.262890] (f112th_sim_2501_alpha) StderrLine: {'line': b'   25 |         \x1b[01;31m\x1b[Kcurrent_velocity_\x1b[m\x1b[K = 0.0;  // Inicializamos la velocidad en 0\n'}
+[2.262953] (f112th_sim_2501_alpha) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.274132] (f112th_sim_2501_alpha) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ivan/ros2_ws_2501/src/f112th_sim_2501_alpha/src/laser_scan_reader.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid LaserBrakeNode::laserCallback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.274274] (f112th_sim_2501_alpha) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ivan/ros2_ws_2501/src/f112th_sim_2501_alpha/src/laser_scan_reader.cpp:64:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcurrent_velocity_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.274339] (f112th_sim_2501_alpha) StderrLine: {'line': b'   64 |             if (\x1b[01;31m\x1b[Kcurrent_velocity_\x1b[m\x1b[K != 0.0)\n'}
+[2.274409] (f112th_sim_2501_alpha) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.281737] (f112th_sim_2501_alpha) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ivan/ros2_ws_2501/src/f112th_sim_2501_alpha/src/laser_scan_reader.cpp:80:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kttc_threshold_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.281854] (f112th_sim_2501_alpha) StderrLine: {'line': b'   80 |                     if (ttc < \x1b[01;31m\x1b[Kttc_threshold_\x1b[m\x1b[K)\n'}
+[2.281917] (f112th_sim_2501_alpha) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.287850] (f112th_sim_2501_alpha) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ivan/ros2_ws_2501/src/f112th_sim_2501_alpha/src/laser_scan_reader.cpp:85:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbrake_publisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcreate_publisher\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.288001] (f112th_sim_2501_alpha) StderrLine: {'line': b'   85 |                         \x1b[01;31m\x1b[Kbrake_publisher_\x1b[m\x1b[K->publish(brake_cmd);\n'}
+[2.288065] (f112th_sim_2501_alpha) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.288129] (f112th_sim_2501_alpha) StderrLine: {'line': b'      |                         \x1b[32m\x1b[Kcreate_publisher\x1b[m\x1b[K\n'}
+[2.288428] (f112th_sim_2501_alpha) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ivan/ros2_ws_2501/src/f112th_sim_2501_alpha/src/laser_scan_reader.cpp:101:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ka function-definition is not allowed here before \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.288489] (f112th_sim_2501_alpha) StderrLine: {'line': b'  101 |     \x1b[01;31m\x1b[K{\x1b[m\x1b[K\n'}
+[2.288545] (f112th_sim_2501_alpha) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.304604] (-) TimerEvent: {}
+[2.325758] (f112th_sim_2501_alpha) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ivan/ros2_ws_2501/src/f112th_sim_2501_alpha/src/laser_scan_reader.cpp:110:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kcurrent_velocity_\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.325919] (f112th_sim_2501_alpha) StderrLine: {'line': b'  110 |     float \x1b[01;35m\x1b[Kcurrent_velocity_\x1b[m\x1b[K;\n'}
+[2.325981] (f112th_sim_2501_alpha) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.326035] (f112th_sim_2501_alpha) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ivan/ros2_ws_2501/src/f112th_sim_2501_alpha/src/laser_scan_reader.cpp:111:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kttc_threshold_\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.326090] (f112th_sim_2501_alpha) StderrLine: {'line': b'  111 |     float \x1b[01;35m\x1b[Kttc_threshold_\x1b[m\x1b[K;\n'}
+[2.326142] (f112th_sim_2501_alpha) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.328976] (f112th_sim_2501_alpha) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ivan/ros2_ws_2501/src/f112th_sim_2501_alpha/src/laser_scan_reader.cpp:\x1b[m\x1b[K At global scope:\n'}
+[2.329115] (f112th_sim_2501_alpha) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ivan/ros2_ws_2501/src/f112th_sim_2501_alpha/src/laser_scan_reader.cpp:120:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id at end of input\n'}
+[2.329211] (f112th_sim_2501_alpha) StderrLine: {'line': b'  120 | }\n'}
+[2.329300] (f112th_sim_2501_alpha) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.404661] (-) TimerEvent: {}
+[2.504909] (-) TimerEvent: {}
+[2.605177] (-) TimerEvent: {}
+[2.705439] (-) TimerEvent: {}
+[2.805679] (-) TimerEvent: {}
+[2.905929] (-) TimerEvent: {}
+[3.006156] (-) TimerEvent: {}
+[3.106440] (-) TimerEvent: {}
+[3.206631] (-) TimerEvent: {}
+[3.306863] (-) TimerEvent: {}
+[3.407110] (-) TimerEvent: {}
+[3.507371] (-) TimerEvent: {}
+[3.607630] (-) TimerEvent: {}
+[3.707886] (-) TimerEvent: {}
+[3.808131] (-) TimerEvent: {}
+[3.908429] (-) TimerEvent: {}
+[4.008651] (-) TimerEvent: {}
+[4.108881] (-) TimerEvent: {}
+[4.209112] (-) TimerEvent: {}
+[4.309335] (-) TimerEvent: {}
+[4.340923] (f112th_sim_2501_alpha) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/laser_scan_reader.dir/build.make:76: CMakeFiles/laser_scan_reader.dir/src/laser_scan_reader.cpp.o] Error 1\n'}
+[4.341106] (f112th_sim_2501_alpha) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/laser_scan_reader.dir/all] Error 2\n'}
+[4.341197] (f112th_sim_2501_alpha) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.342922] (f112th_sim_2501_alpha) CommandEnded: {'returncode': 2}
+[4.348378] (f112th_sim_2501_alpha) JobEnded: {'identifier': 'f112th_sim_2501_alpha', 'rc': 2}
+[4.358915] (-) EventReactorShutdown: {}

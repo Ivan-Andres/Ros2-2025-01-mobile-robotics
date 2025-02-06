@@ -17,6 +17,18 @@ endif()
 
 # Find dependencies
 find_package(ament_cmake REQUIRED)
+find_package(rclcpp REQUIRED)
+find_package(sensor_msgs REQUIRED)
+
+# Añadir el ejecutable para el nodo
+add_executable(laser_scan_reader src/laser_scan_reader.cpp)
+ament_target_dependencies(laser_scan_reader rclcpp sensor_msgs geometry_msgs)
+
+
+# Instalar el ejecutable
+install(TARGETS laser_scan_reader
+  DESTINATION lib/${PROJECT_NAME}
+)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -30,7 +42,7 @@ if(BUILD_TESTING)
 endif()
 
 install(
-  DIRECTORY config description launch worlds
+  DIRECTORY config description launch worlds src
   DESTINATION share/${PROJECT_NAME}
 )
 

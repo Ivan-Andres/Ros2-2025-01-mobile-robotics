@@ -1,0 +1,2 @@
+Invoking command in '/home/ivan/ros2_ws_2501/build/f112th_sim_2501_alpha': /usr/bin/cmake /home/ivan/ros2_ws_2501/src/f112th_sim_2501_alpha -DCMAKE_INSTALL_PREFIX=/home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha
+Invoked command in '/home/ivan/ros2_ws_2501/build/f112th_sim_2501_alpha' returned '1': /usr/bin/cmake /home/ivan/ros2_ws_2501/src/f112th_sim_2501_alpha -DCMAKE_INSTALL_PREFIX=/home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha

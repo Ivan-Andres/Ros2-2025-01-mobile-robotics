@@ -1,0 +1,55 @@
+[01m[K/home/ivan/ros2_ws_2501/src/f112th_sim_2501_alpha/src/laser_scan_reader.cpp:106:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  106 | }
+      |  [01;31m[K^[m[K
+[01m[K/home/ivan/ros2_ws_2501/src/f112th_sim_2501_alpha/src/laser_scan_reader.cpp:6:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+    6 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/ivan/ros2_ws_2501/src/f112th_sim_2501_alpha/src/laser_scan_reader.cpp:[m[K In constructor ‘[01m[KLaserBrakeNode::LaserBrakeNode()[m[K’:
+[01m[K/home/ivan/ros2_ws_2501/src/f112th_sim_2501_alpha/src/laser_scan_reader.cpp:11:9:[m[K [01;31m[Kerror: [m[K‘[01m[Klaser_subscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcreate_subscription[m[K’?
+   11 |         [01;31m[Klaser_subscription_[m[K = this->create_subscription<sensor_msgs::msg::LaserScan>(
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Kcreate_subscription[m[K
+[01m[K/home/ivan/ros2_ws_2501/src/f112th_sim_2501_alpha/src/laser_scan_reader.cpp:16:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcmd_vel_subscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcreate_subscription[m[K’?
+   16 |         [01;31m[Kcmd_vel_subscription_[m[K = this->create_subscription<geometry_msgs::msg::Twist>(
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Kcreate_subscription[m[K
+[01m[K/home/ivan/ros2_ws_2501/src/f112th_sim_2501_alpha/src/laser_scan_reader.cpp:18:40:[m[K [01;31m[Kerror: [m[K‘[01m[KcmdVelCallback[m[K’ is not a member of ‘[01m[KLaserBrakeNode[m[K’
+   18 |             std::bind(&LaserBrakeNode::[01;31m[KcmdVelCallback[m[K, this, std::placeholders::_1));
+      |                                        [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/ivan/ros2_ws_2501/src/f112th_sim_2501_alpha/src/laser_scan_reader.cpp:21:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kbrake_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcreate_publisher[m[K’?
+   21 |         [01;31m[Kbrake_publisher_[m[K = this->create_publisher<geometry_msgs::msg::Twist>("/cmd_vel_break", 10);
+      |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |         [32m[Kcreate_publisher[m[K
+[01m[K/home/ivan/ros2_ws_2501/src/f112th_sim_2501_alpha/src/laser_scan_reader.cpp:24:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kttc_threshold_[m[K’ was not declared in this scope
+   24 |         [01;31m[Kttc_threshold_[m[K = 0.2;
+      |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/ivan/ros2_ws_2501/src/f112th_sim_2501_alpha/src/laser_scan_reader.cpp:25:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_velocity_[m[K’ was not declared in this scope
+   25 |         [01;31m[Kcurrent_velocity_[m[K = 0.0;  // Inicializamos la velocidad en 0
+      |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ivan/ros2_ws_2501/src/f112th_sim_2501_alpha/src/laser_scan_reader.cpp:[m[K In member function ‘[01m[Kvoid LaserBrakeNode::laserCallback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/ivan/ros2_ws_2501/src/f112th_sim_2501_alpha/src/laser_scan_reader.cpp:59:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_velocity_[m[K’ was not declared in this scope
+   59 |             if ([01;31m[Kcurrent_velocity_[m[K != 0.0)
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ivan/ros2_ws_2501/src/f112th_sim_2501_alpha/src/laser_scan_reader.cpp:66:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kttc_threshold_[m[K’ was not declared in this scope
+   66 |                 if (ttc < [01;31m[Kttc_threshold_[m[K)
+      |                           [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/ivan/ros2_ws_2501/src/f112th_sim_2501_alpha/src/laser_scan_reader.cpp:78:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kbrake_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcreate_publisher[m[K’?
+   78 |                 [01;31m[Kbrake_publisher_[m[K->publish(brake_cmd);
+      |                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                 [32m[Kcreate_publisher[m[K
+[01m[K/home/ivan/ros2_ws_2501/src/f112th_sim_2501_alpha/src/laser_scan_reader.cpp:87:5:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+   87 |     [01;31m[K{[m[K
+      |     [01;31m[K^[m[K
+[01m[K/home/ivan/ros2_ws_2501/src/f112th_sim_2501_alpha/src/laser_scan_reader.cpp:96:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcurrent_velocity_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   96 |     float [01;35m[Kcurrent_velocity_[m[K;
+      |           [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ivan/ros2_ws_2501/src/f112th_sim_2501_alpha/src/laser_scan_reader.cpp:97:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kttc_threshold_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   97 |     float [01;35m[Kttc_threshold_[m[K;
+      |           [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/ivan/ros2_ws_2501/src/f112th_sim_2501_alpha/src/laser_scan_reader.cpp:[m[K At global scope:
+[01m[K/home/ivan/ros2_ws_2501/src/f112th_sim_2501_alpha/src/laser_scan_reader.cpp:106:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+  106 | }
+      |  [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/laser_scan_reader.dir/build.make:76: CMakeFiles/laser_scan_reader.dir/src/laser_scan_reader.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/laser_scan_reader.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

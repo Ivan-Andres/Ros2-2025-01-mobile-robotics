@@ -1,0 +1,171 @@
+[0.000000] (-) TimerEvent: {}
+[0.000232] (f112th_sim_2501_alpha) JobQueued: {'identifier': 'f112th_sim_2501_alpha', 'dependencies': OrderedDict()}
+[0.000440] (joy_tester) JobQueued: {'identifier': 'joy_tester', 'dependencies': OrderedDict()}
+[0.000555] (f112th_sim_2501_alpha) JobStarted: {'identifier': 'f112th_sim_2501_alpha'}
+[0.005558] (joy_tester) JobStarted: {'identifier': 'joy_tester'}
+[0.011501] (f112th_sim_2501_alpha) JobProgress: {'identifier': 'f112th_sim_2501_alpha', 'progress': 'cmake'}
+[0.012006] (f112th_sim_2501_alpha) JobProgress: {'identifier': 'f112th_sim_2501_alpha', 'progress': 'build'}
+[0.012543] (f112th_sim_2501_alpha) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ivan/ros2_ws_2501/build/f112th_sim_2501_alpha', '--', '-j12', '-l12'], 'cwd': '/home/ivan/ros2_ws_2501/build/f112th_sim_2501_alpha', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'es_PE:es'), ('USER', 'ivan'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ivan'), ('OLDPWD', '/home/ivan'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1805'), ('SYSTEMD_EXEC_PID', '1984'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3690'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ivan/ros2_ws_2501/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ivan'), ('JOURNAL_STREAM', '8:3010'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ivan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ivan-GL75:@/tmp/.ICE-unix/1956,unix/ivan-GL75:/tmp/.ICE-unix/1956'), ('INVOCATION_ID', 'f5e2272444f54d768b9934a07596bb7e'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'es_PE.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.FQLE12'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ivan/ros2_ws_2501/install/joy_tester:/home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:976aef2b-a9b7-4f85-aafd-9f921b443e46'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ivan/ros2_ws_2501/build/f112th_sim_2501_alpha'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ivan/ros2_ws_2501/build/joy_tester:/home/ivan/ros2_ws_2501/install/joy_tester/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha:/home/ivan/ros2_ws_2501/install/joy_tester:/opt/ros/humble')]), 'shell': False}
+[0.046248] (f112th_sim_2501_alpha) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target laser_scan_reader\x1b[0m\n'}
+[0.060270] (f112th_sim_2501_alpha) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/laser_scan_reader.dir/src/laser_scan_reader.cpp.o\x1b[0m\n'}
+[0.099424] (-) TimerEvent: {}
+[0.199769] (-) TimerEvent: {}
+[0.299999] (-) TimerEvent: {}
+[0.400239] (-) TimerEvent: {}
+[0.500501] (-) TimerEvent: {}
+[0.600758] (-) TimerEvent: {}
+[0.610453] (joy_tester) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ivan/ros2_ws_2501/build/joy_tester/build', '--no-deps', 'symlink_data'], 'cwd': '/home/ivan/ros2_ws_2501/build/joy_tester', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'es_PE:es', 'USER': 'ivan', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ivan', 'OLDPWD': '/home/ivan', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1805', 'SYSTEMD_EXEC_PID': '1984', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3690', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ivan/ros2_ws_2501/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ivan', 'JOURNAL_STREAM': '8:3010', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ivan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ivan-GL75:@/tmp/.ICE-unix/1956,unix/ivan-GL75:/tmp/.ICE-unix/1956', 'INVOCATION_ID': 'f5e2272444f54d768b9934a07596bb7e', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'es_PE.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.FQLE12', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ivan/ros2_ws_2501/install/joy_tester:/home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:976aef2b-a9b7-4f85-aafd-9f921b443e46', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ivan/ros2_ws_2501/build/joy_tester', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ivan/ros2_ws_2501/build/joy_tester/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/ros2_ws_2501/install/joy_tester/lib/python3.10/site-packages:/home/ivan/ros2_ws_2501/build/joy_tester:/home/ivan/ros2_ws_2501/install/joy_tester/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha'}, 'shell': False}
+[0.700840] (-) TimerEvent: {}
+[0.801095] (-) TimerEvent: {}
+[0.855880] (joy_tester) StdoutLine: {'line': b'running develop\n'}
+[0.901178] (-) TimerEvent: {}
+[1.001413] (-) TimerEvent: {}
+[1.024651] (joy_tester) StdoutLine: {'line': b'running egg_info\n'}
+[1.024873] (joy_tester) StdoutLine: {'line': b'writing joy_tester.egg-info/PKG-INFO\n'}
+[1.025140] (joy_tester) StdoutLine: {'line': b'writing dependency_links to joy_tester.egg-info/dependency_links.txt\n'}
+[1.025309] (joy_tester) StdoutLine: {'line': b'writing entry points to joy_tester.egg-info/entry_points.txt\n'}
+[1.025410] (joy_tester) StdoutLine: {'line': b'writing requirements to joy_tester.egg-info/requires.txt\n'}
+[1.025500] (joy_tester) StdoutLine: {'line': b'writing top-level names to joy_tester.egg-info/top_level.txt\n'}
+[1.028101] (joy_tester) StdoutLine: {'line': b"reading manifest file 'joy_tester.egg-info/SOURCES.txt'\n"}
+[1.028945] (joy_tester) StdoutLine: {'line': b"writing manifest file 'joy_tester.egg-info/SOURCES.txt'\n"}
+[1.030207] (joy_tester) StdoutLine: {'line': b'running build_ext\n'}
+[1.030381] (joy_tester) StdoutLine: {'line': b'Creating /home/ivan/ros2_ws_2501/install/joy_tester/lib/python3.10/site-packages/joy-tester.egg-link (link to .)\n'}
+[1.031132] (joy_tester) StdoutLine: {'line': b'Installing test_joy script to /home/ivan/ros2_ws_2501/install/joy_tester/lib/joy_tester\n'}
+[1.031364] (joy_tester) StdoutLine: {'line': b'\n'}
+[1.031452] (joy_tester) StdoutLine: {'line': b'Installed /home/ivan/ros2_ws_2501/build/joy_tester\n'}
+[1.031515] (joy_tester) StdoutLine: {'line': b'running symlink_data\n'}
+[1.056475] (joy_tester) CommandEnded: {'returncode': 0}
+[1.065767] (joy_tester) JobEnded: {'identifier': 'joy_tester', 'rc': 0}
+[1.101491] (-) TimerEvent: {}
+[1.201682] (-) TimerEvent: {}
+[1.301928] (-) TimerEvent: {}
+[1.402117] (-) TimerEvent: {}
+[1.502363] (-) TimerEvent: {}
+[1.602617] (-) TimerEvent: {}
+[1.702841] (-) TimerEvent: {}
+[1.803067] (-) TimerEvent: {}
+[1.903330] (-) TimerEvent: {}
+[2.003647] (-) TimerEvent: {}
+[2.103909] (-) TimerEvent: {}
+[2.204180] (-) TimerEvent: {}
+[2.304408] (-) TimerEvent: {}
+[2.404647] (-) TimerEvent: {}
+[2.504891] (-) TimerEvent: {}
+[2.605131] (-) TimerEvent: {}
+[2.705410] (-) TimerEvent: {}
+[2.805629] (-) TimerEvent: {}
+[2.905885] (-) TimerEvent: {}
+[3.006124] (-) TimerEvent: {}
+[3.106358] (-) TimerEvent: {}
+[3.206581] (-) TimerEvent: {}
+[3.306811] (-) TimerEvent: {}
+[3.407041] (-) TimerEvent: {}
+[3.507260] (-) TimerEvent: {}
+[3.607520] (-) TimerEvent: {}
+[3.707773] (-) TimerEvent: {}
+[3.808006] (-) TimerEvent: {}
+[3.908238] (-) TimerEvent: {}
+[4.008482] (-) TimerEvent: {}
+[4.108714] (-) TimerEvent: {}
+[4.208963] (-) TimerEvent: {}
+[4.309182] (-) TimerEvent: {}
+[4.409414] (-) TimerEvent: {}
+[4.509650] (-) TimerEvent: {}
+[4.609875] (-) TimerEvent: {}
+[4.710108] (-) TimerEvent: {}
+[4.810332] (-) TimerEvent: {}
+[4.910563] (-) TimerEvent: {}
+[5.010936] (-) TimerEvent: {}
+[5.111154] (-) TimerEvent: {}
+[5.211458] (-) TimerEvent: {}
+[5.311771] (-) TimerEvent: {}
+[5.412027] (-) TimerEvent: {}
+[5.512265] (-) TimerEvent: {}
+[5.612520] (-) TimerEvent: {}
+[5.712795] (-) TimerEvent: {}
+[5.813046] (-) TimerEvent: {}
+[5.913300] (-) TimerEvent: {}
+[6.013548] (-) TimerEvent: {}
+[6.113805] (-) TimerEvent: {}
+[6.214023] (-) TimerEvent: {}
+[6.314276] (-) TimerEvent: {}
+[6.414525] (-) TimerEvent: {}
+[6.514785] (-) TimerEvent: {}
+[6.615039] (-) TimerEvent: {}
+[6.715292] (-) TimerEvent: {}
+[6.815550] (-) TimerEvent: {}
+[6.915809] (-) TimerEvent: {}
+[7.016063] (-) TimerEvent: {}
+[7.116315] (-) TimerEvent: {}
+[7.216569] (-) TimerEvent: {}
+[7.316825] (-) TimerEvent: {}
+[7.417079] (-) TimerEvent: {}
+[7.517330] (-) TimerEvent: {}
+[7.617592] (-) TimerEvent: {}
+[7.717849] (-) TimerEvent: {}
+[7.818098] (-) TimerEvent: {}
+[7.918347] (-) TimerEvent: {}
+[8.018608] (-) TimerEvent: {}
+[8.118861] (-) TimerEvent: {}
+[8.219112] (-) TimerEvent: {}
+[8.319499] (-) TimerEvent: {}
+[8.420057] (-) TimerEvent: {}
+[8.520337] (-) TimerEvent: {}
+[8.620601] (-) TimerEvent: {}
+[8.720843] (-) TimerEvent: {}
+[8.821124] (-) TimerEvent: {}
+[8.921401] (-) TimerEvent: {}
+[8.947704] (f112th_sim_2501_alpha) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable laser_scan_reader\x1b[0m\n'}
+[9.021531] (-) TimerEvent: {}
+[9.121778] (-) TimerEvent: {}
+[9.222025] (-) TimerEvent: {}
+[9.322269] (-) TimerEvent: {}
+[9.396126] (f112th_sim_2501_alpha) StdoutLine: {'line': b'[100%] Built target laser_scan_reader\n'}
+[9.408895] (f112th_sim_2501_alpha) CommandEnded: {'returncode': 0}
+[9.409395] (f112th_sim_2501_alpha) JobProgress: {'identifier': 'f112th_sim_2501_alpha', 'progress': 'install'}
+[9.416084] (f112th_sim_2501_alpha) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ivan/ros2_ws_2501/build/f112th_sim_2501_alpha'], 'cwd': '/home/ivan/ros2_ws_2501/build/f112th_sim_2501_alpha', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'es_PE:es'), ('USER', 'ivan'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ivan'), ('OLDPWD', '/home/ivan'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1805'), ('SYSTEMD_EXEC_PID', '1984'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3690'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ivan/ros2_ws_2501/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ivan'), ('JOURNAL_STREAM', '8:3010'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ivan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ivan-GL75:@/tmp/.ICE-unix/1956,unix/ivan-GL75:/tmp/.ICE-unix/1956'), ('INVOCATION_ID', 'f5e2272444f54d768b9934a07596bb7e'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'es_PE.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.FQLE12'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ivan/ros2_ws_2501/install/joy_tester:/home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:976aef2b-a9b7-4f85-aafd-9f921b443e46'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ivan/ros2_ws_2501/build/f112th_sim_2501_alpha'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ivan/ros2_ws_2501/build/joy_tester:/home/ivan/ros2_ws_2501/install/joy_tester/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha:/home/ivan/ros2_ws_2501/install/joy_tester:/opt/ros/humble')]), 'shell': False}
+[9.421186] (f112th_sim_2501_alpha) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.421552] (f112th_sim_2501_alpha) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[9.421789] (f112th_sim_2501_alpha) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/lib/f112th_sim_2501_alpha/laser_scan_reader\n'}
+[9.422022] (f112th_sim_2501_alpha) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/config/joystick.yaml\n'}
+[9.422099] (f112th_sim_2501_alpha) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/config/parms.yaml\n'}
+[9.422197] (f112th_sim_2501_alpha) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/config/twist_mux.yaml\n'}
+[9.422261] (-) TimerEvent: {}
+[9.422409] (f112th_sim_2501_alpha) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/description/acker.urdf.xacro\n'}
+[9.422495] (f112th_sim_2501_alpha) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/description/gazebo_control.xacro\n'}
+[9.422561] (f112th_sim_2501_alpha) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/description/inertial_macros.xacro\n'}
+[9.422667] (f112th_sim_2501_alpha) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/description/lidar.xacro\n'}
+[9.422761] (f112th_sim_2501_alpha) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/description/properties.xacro\n'}
+[9.422828] (f112th_sim_2501_alpha) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/description/robot.urdf.xacro\n'}
+[9.422890] (f112th_sim_2501_alpha) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/description/robot_core.xacro\n'}
+[9.422950] (f112th_sim_2501_alpha) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/description/rviz_model.rviz\n'}
+[9.423237] (f112th_sim_2501_alpha) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/launch/acker.launch.py\n'}
+[9.423315] (f112th_sim_2501_alpha) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/launch/joystick.launch.py\n'}
+[9.423385] (f112th_sim_2501_alpha) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/launch/launch_sim.launch.py\n'}
+[9.423458] (f112th_sim_2501_alpha) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/launch/launch_sim_ackerman.launch.py\n'}
+[9.423528] (f112th_sim_2501_alpha) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/launch/rsp.launch.py\n'}
+[9.423604] (f112th_sim_2501_alpha) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/launch/twist_mux.launch.py\n'}
+[9.423841] (f112th_sim_2501_alpha) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/worlds/1frstworld.world\n'}
+[9.423909] (f112th_sim_2501_alpha) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/worlds/empty.world\n'}
+[9.423971] (f112th_sim_2501_alpha) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/worlds/my_world.world\n'}
+[9.424045] (f112th_sim_2501_alpha) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/worlds/wall/model.config\n'}
+[9.424131] (f112th_sim_2501_alpha) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/worlds/wall/model.sdf\n'}
+[9.424247] (f112th_sim_2501_alpha) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/src/laser_scan_reader.cpp\n'}
+[9.424377] (f112th_sim_2501_alpha) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/ament_index/resource_index/package_run_dependencies/f112th_sim_2501_alpha\n'}
+[9.424505] (f112th_sim_2501_alpha) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/ament_index/resource_index/parent_prefix_path/f112th_sim_2501_alpha\n'}
+[9.424761] (f112th_sim_2501_alpha) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/environment/ament_prefix_path.sh\n'}
+[9.424827] (f112th_sim_2501_alpha) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/environment/ament_prefix_path.dsv\n'}
+[9.424920] (f112th_sim_2501_alpha) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/environment/path.sh\n'}
+[9.424995] (f112th_sim_2501_alpha) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/environment/path.dsv\n'}
+[9.425061] (f112th_sim_2501_alpha) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/local_setup.bash\n'}
+[9.425157] (f112th_sim_2501_alpha) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/local_setup.sh\n'}
+[9.425255] (f112th_sim_2501_alpha) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/local_setup.zsh\n'}
+[9.425352] (f112th_sim_2501_alpha) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/local_setup.dsv\n'}
+[9.425426] (f112th_sim_2501_alpha) StdoutLine: {'line': b'-- Symlinking: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/package.dsv\n'}
+[9.432064] (f112th_sim_2501_alpha) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/ament_index/resource_index/packages/f112th_sim_2501_alpha\n'}
+[9.432183] (f112th_sim_2501_alpha) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/cmake/f112th_sim_2501_alphaConfig.cmake\n'}
+[9.432254] (f112th_sim_2501_alpha) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/cmake/f112th_sim_2501_alphaConfig-version.cmake\n'}
+[9.432373] (f112th_sim_2501_alpha) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/f112th_sim_2501_alpha/share/f112th_sim_2501_alpha/package.xml\n'}
+[9.433691] (f112th_sim_2501_alpha) CommandEnded: {'returncode': 0}
+[9.444293] (f112th_sim_2501_alpha) JobEnded: {'identifier': 'f112th_sim_2501_alpha', 'rc': 0}
+[9.444964] (-) EventReactorShutdown: {}
