@@ -328,6 +328,9 @@ ament_lint_common_DIR:PATH=/opt/ros/humble/share/ament_lint_common/cmake
 //Path to a program.
 ament_pep257_BIN:FILEPATH=/opt/ros/humble/bin/ament_pep257
 
+//The directory containing a CMake configuration file for ament_python.
+ament_python_DIR:PATH=ament_python_DIR-NOTFOUND
+
 //Path to a program.
 ament_xmllint_BIN:FILEPATH=/opt/ros/humble/bin/ament_xmllint
 
@@ -339,6 +342,9 @@ f112th_sim_2501_alpha_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 f112th_sim_2501_alpha_SOURCE_DIR:STATIC=/home/ivan/ros2_ws_2501/src/f112th_sim_2501_alpha
+
+//The directory containing a CMake configuration file for rclpy.
+rclpy_DIR:PATH=/opt/ros/humble/share/rclpy/cmake
 
 //Path to a program.
 xmllint_BIN:FILEPATH=/usr/bin/xmllint
@@ -493,6 +499,9 @@ CMAKE_UNAME:INTERNAL=/usr/bin/uname
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding Python3
 FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/usr/bin/python3][cfound components: Interpreter ][v3.10.12()]
+//The directory for Python library installation. This needs to
+// be in PYTHONPATH when 'setup.py install' is called.
+PYTHON_INSTALL_DIR:INTERNAL=local/lib/python3.10/dist-packages
 _Python3_EXECUTABLE:INTERNAL=/usr/bin/python3
 //Python3 Properties
 _Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages

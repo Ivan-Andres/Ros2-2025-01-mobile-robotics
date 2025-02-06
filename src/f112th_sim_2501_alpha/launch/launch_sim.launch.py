@@ -17,6 +17,7 @@ def generate_launch_description():
     # !!! MAKE SURE YOU SET THE PACKAGE NAME CORRECTLY !!!
 
     package_name='f112th_sim_2501_alpha' #<--- CHANGE ME
+    twist_mux_params = os.path.join(get_package_share_directory(package_name),'config','twist_mux.yaml')
 
     rsp = IncludeLaunchDescription(
                 PythonLaunchDescriptionSource([os.path.join(
@@ -35,10 +36,24 @@ def generate_launch_description():
                         arguments=['-topic', 'robot_description',
                                    '-entity', 'my_bot'],
                         output='screen')
+    
+    joystick = IncludeLaunchDescription(
+                PythonLaunchDescriptionSource([os.path.join(
+                    get_package_share_directory(package_name),'launch','joystick.launch.py'
+                )]), launch_arguments={'use_sim_time': 'true'}.items()
+    )
+    
+    twist_mux_node = Node(package='twist_mux', 
+                    executable='twist_mux',
+                    parameters=[twist_mux_params,{'use_sim_time': True}],
+                    remappings=[('/cmd_vel_out','/cmd_vel')]
+    )
 
     # Launch them all!
     return LaunchDescription([
         rsp,
         gazebo,
         spawn_entity,
+        joystick,
+        twist_mux_node,
     ])
