@@ -13,3 +13,7 @@ twist_mux:
         topic: cmd_vel_break
         timeout: 0.5
         priority: 255  # Prioridad máxima para control de frenado
+      cmd_vel_cmd:  # Nueva prioridad más baja
+        topic: cmd_vel_ctrl 
+        timeout: 0.5
+        priority: 50  # La prioridad más baja

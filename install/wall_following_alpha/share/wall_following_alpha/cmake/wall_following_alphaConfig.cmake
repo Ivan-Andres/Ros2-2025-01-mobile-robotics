@@ -1,0 +1,1 @@
+/home/ivan/ros2_ws_2501/build/wall_following_alpha/ament_cmake_core/wall_following_alphaConfig.cmake
