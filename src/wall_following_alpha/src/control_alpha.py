@@ -25,8 +25,8 @@ class ControlAlpha(Node):
         )
 
         # Parámetros de control
-        self.Kp = 0.3  # Constante proporcional
-        self.Kd = 0.05  # Constante derivativa
+        self.Kp = 5.0  # Constante proporcional
+        self.Kd = 0.2  # Constante derivativa
         self.previous_error = 10.0  # Error anterior para calcular la derivada
         self.previous_time = self.get_clock().now()  # Tiempo anterior
 
@@ -52,7 +52,7 @@ class ControlAlpha(Node):
 
         # Crear el mensaje Twist con los comandos calculados
         cmd_vel_msg = Twist()
-        cmd_vel_msg.linear.x = 0.5  # Velocidad lineal constante (puedes ajustarlo si es necesario)
+        cmd_vel_msg.linear.x = 1.0  # Velocidad lineal constante (puedes ajustarlo si es necesario)
         cmd_vel_msg.angular.z = angular_velocity  # Enviar el ángulo ajustado
 
         # Publicar el mensaje en cmd_vel_cmd
