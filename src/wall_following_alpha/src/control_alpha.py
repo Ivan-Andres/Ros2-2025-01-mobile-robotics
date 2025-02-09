@@ -26,9 +26,11 @@ class ControlAlpha(Node):
 
         # Parámetros de control
         self.Kp = 5.0  # Constante proporcional
-        self.Kd = 0.2  # Constante derivativa
+        self.Kd = 0.1  # Constante derivativa
         self.previous_error = 10.0  # Error anterior para calcular la derivada
         self.previous_time = self.get_clock().now()  # Tiempo anterior
+        self.min_speed = 0.5  # Velocidad mínima en m/s
+        self.max_speed = 1.5  # Velocidad máxima en m/s (ajustable según necesidad)
 
         self.get_logger().info("Nodo control_alpha iniciado correctamente.")
 
@@ -38,6 +40,11 @@ class ControlAlpha(Node):
 
         # Log de los valores recibidos
         self.get_logger().info(f"error {error}")
+
+        # Control proporcional para la velocidad lineal
+        # Si el error es pequeño (cerca de 0), aumentamos la velocidad
+        # Si el error es grande (lejos de 0), disminuimos la velocidad
+        speed = max(self.min_speed, self.max_speed - abs(error))
 
         # Calcular el tiempo transcurrido
         current_time = self.get_clock().now()
@@ -52,14 +59,14 @@ class ControlAlpha(Node):
 
         # Crear el mensaje Twist con los comandos calculados
         cmd_vel_msg = Twist()
-        cmd_vel_msg.linear.x = 1.0  # Velocidad lineal constante (puedes ajustarlo si es necesario)
+        cmd_vel_msg.linear.x = speed  # Velocidad lineal constante (puedes ajustarlo si es necesario)
         cmd_vel_msg.angular.z = angular_velocity  # Enviar el ángulo ajustado
 
         # Publicar el mensaje en cmd_vel_cmd
         self.publisher.publish(cmd_vel_msg)
 
         # Log de lo que estamos enviando
-        self.get_logger().info(f"Comando enviado: angular={angular_velocity}, lineal={cmd_vel_msg.linear.x}")
+        self.get_logger().info(f"Comando enviado: angular={angular_velocity}, lineal={speed}")
 
         # Actualizar el error y el tiempo anteriores
         self.previous_error = error

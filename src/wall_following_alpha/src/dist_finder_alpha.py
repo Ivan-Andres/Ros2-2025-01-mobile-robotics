@@ -61,7 +61,7 @@ class DistFinderAlpha(Node):
             distancia_muro = b * math.cos(alpha)
 
             if ((frente < 2.0) & (distancia_muro < 2.0)):
-                msg_out.data = 20.0  # Publicamos distancia y ángulo en grados
+                msg_out.data = 10.0  # Publicamos distancia y ángulo en grados
 
                 # Publicar el mensaje
                 self.publisher.publish(msg_out)
