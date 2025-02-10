@@ -1,0 +1,17 @@
+[0.519s] Invoking command in '/home/ivan/ros2_ws_2501/build/joy_tester': PYTHONPATH=/home/ivan/ros2_ws_2501/build/joy_tester/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/ros2_ws_2501/install/joy_tester/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ivan/ros2_ws_2501/build/joy_tester/build --no-deps symlink_data
+[0.714s] running develop
+[0.851s] running egg_info
+[0.851s] writing joy_tester.egg-info/PKG-INFO
+[0.851s] writing dependency_links to joy_tester.egg-info/dependency_links.txt
+[0.851s] writing entry points to joy_tester.egg-info/entry_points.txt
+[0.851s] writing requirements to joy_tester.egg-info/requires.txt
+[0.851s] writing top-level names to joy_tester.egg-info/top_level.txt
+[0.853s] reading manifest file 'joy_tester.egg-info/SOURCES.txt'
+[0.853s] writing manifest file 'joy_tester.egg-info/SOURCES.txt'
+[0.854s] running build_ext
+[0.855s] Creating /home/ivan/ros2_ws_2501/install/joy_tester/lib/python3.10/site-packages/joy-tester.egg-link (link to .)
+[0.855s] Installing test_joy script to /home/ivan/ros2_ws_2501/install/joy_tester/lib/joy_tester
+[0.856s] 
+[0.856s] Installed /home/ivan/ros2_ws_2501/build/joy_tester
+[0.856s] running symlink_data
+[0.874s] Invoked command in '/home/ivan/ros2_ws_2501/build/joy_tester' returned '0': PYTHONPATH=/home/ivan/ros2_ws_2501/build/joy_tester/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/ros2_ws_2501/install/joy_tester/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ivan/ros2_ws_2501/build/joy_tester/build --no-deps symlink_data

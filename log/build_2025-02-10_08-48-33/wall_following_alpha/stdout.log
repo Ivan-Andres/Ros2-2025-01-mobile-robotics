@@ -1,0 +1,24 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/wall_following_alpha/lib/wall_following_alpha/dist_finder_alpha.py
+-- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/wall_following_alpha/lib/wall_following_alpha/control_alpha.py
+-- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/wall_following_alpha/lib/wall_following_alpha/gap_finder.py
+-- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/wall_following_alpha/share/wall_following_alpha/launch/wall_following_alpha.launch.py
+-- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/wall_following_alpha/share/wall_following_alpha/src/control_alpha.py
+-- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/wall_following_alpha/share/wall_following_alpha/src/dist_finder_alpha.py
+-- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/wall_following_alpha/share/wall_following_alpha/src/gap_finder.py
+-- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/wall_following_alpha/share/ament_index/resource_index/package_run_dependencies/wall_following_alpha
+-- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/wall_following_alpha/share/ament_index/resource_index/parent_prefix_path/wall_following_alpha
+-- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/wall_following_alpha/share/wall_following_alpha/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/wall_following_alpha/share/wall_following_alpha/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/wall_following_alpha/share/wall_following_alpha/environment/path.sh
+-- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/wall_following_alpha/share/wall_following_alpha/environment/path.dsv
+-- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/wall_following_alpha/share/wall_following_alpha/local_setup.bash
+-- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/wall_following_alpha/share/wall_following_alpha/local_setup.sh
+-- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/wall_following_alpha/share/wall_following_alpha/local_setup.zsh
+-- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/wall_following_alpha/share/wall_following_alpha/local_setup.dsv
+-- Symlinking: /home/ivan/ros2_ws_2501/install/wall_following_alpha/share/wall_following_alpha/package.dsv
+-- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/wall_following_alpha/share/ament_index/resource_index/packages/wall_following_alpha
+-- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/wall_following_alpha/share/wall_following_alpha/cmake/wall_following_alphaConfig.cmake
+-- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/wall_following_alpha/share/wall_following_alpha/cmake/wall_following_alphaConfig-version.cmake
+-- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/wall_following_alpha/share/wall_following_alpha/package.xml

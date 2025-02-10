@@ -1,8 +1,13 @@
 /home/ivan/ros2_ws_2501/install/wall_following_alpha/lib/wall_following_alpha/dist_finder_alpha.py
 /home/ivan/ros2_ws_2501/install/wall_following_alpha/lib/wall_following_alpha/control_alpha.py
+/home/ivan/ros2_ws_2501/install/wall_following_alpha/lib/wall_following_alpha/gap_finder.py
+/home/ivan/ros2_ws_2501/install/wall_following_alpha/lib/wall_following_alpha/control_alpha_gap.py
+/home/ivan/ros2_ws_2501/install/wall_following_alpha/share/wall_following_alpha/launch/gap_following_alpha.launch.py
 /home/ivan/ros2_ws_2501/install/wall_following_alpha/share/wall_following_alpha/launch/wall_following_alpha.launch.py
 /home/ivan/ros2_ws_2501/install/wall_following_alpha/share/wall_following_alpha/src/control_alpha.py
+/home/ivan/ros2_ws_2501/install/wall_following_alpha/share/wall_following_alpha/src/control_alpha_gap.py
 /home/ivan/ros2_ws_2501/install/wall_following_alpha/share/wall_following_alpha/src/dist_finder_alpha.py
+/home/ivan/ros2_ws_2501/install/wall_following_alpha/share/wall_following_alpha/src/gap_finder.py
 /home/ivan/ros2_ws_2501/install/wall_following_alpha/share/ament_index/resource_index/package_run_dependencies/wall_following_alpha
 /home/ivan/ros2_ws_2501/install/wall_following_alpha/share/ament_index/resource_index/parent_prefix_path/wall_following_alpha
 /home/ivan/ros2_ws_2501/install/wall_following_alpha/share/wall_following_alpha/environment/ament_prefix_path.sh

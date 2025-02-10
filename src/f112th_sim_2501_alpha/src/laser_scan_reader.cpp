@@ -21,7 +21,7 @@ public:
         brake_publisher_ = this->create_publisher<geometry_msgs::msg::Twist>("/cmd_vel_break", 10);
 
         // Valor umbral de TTC para iniciar el frenado (en segundos)
-        ttc_threshold_ = 1.3;
+        ttc_threshold_ = 0.2;
         current_velocity_ = 0.0;  // Inicializamos la velocidad en 0
     }
 
@@ -80,7 +80,7 @@ private:
 
                     if (ttc < ttc_threshold_)
                     {
-                        brake_cmd.linear.x = -0.5;  // Frenado de emergencia
+                        brake_cmd.linear.x = -1.0;  // Frenado de emergencia
                         RCLCPP_WARN(this->get_logger(), "TTC = %.2f s. Frenando de emergencia.", ttc);
                         // Publicar el comando de frenado
                         brake_publisher_->publish(brake_cmd);

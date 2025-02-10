@@ -28,7 +28,9 @@ endif()
 install(
   PROGRAMS
     src/dist_finder_alpha.py 
-    src/control_alpha.py # Cambiar el nombre del archivo si es diferente
+    src/control_alpha.py 
+    src/gap_finder.py
+    src/control_alpha_gap.py # Cambiar el nombre del archivo si es diferente
   DESTINATION lib/${PROJECT_NAME}
 )
 

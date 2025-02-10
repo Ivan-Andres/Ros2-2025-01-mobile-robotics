@@ -22,7 +22,7 @@ class DistFinderAlpha(Node):
         self.publisher = self.create_publisher(Float32, 'error', 10)
 
         # Parámetros de control
-        self.setpoint = 1.0  # Setpoint deseado para la distancia al muro, ajustable
+        self.setpoint = 1.5  # Setpoint deseado para la distancia al muro, ajustable
         # Parámetro del desplazamiento del vehículo
         self.desplazamiento = 0.2  # En metros
 

@@ -310,8 +310,8 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(PROGRAMS "src/dist_finder_alpha.py" "src/control_alpha.py" "DESTINATION" "lib/wall_following_alpha")
-ament_cmake_symlink_install_programs("/home/ivan/ros2_ws_2501/src/wall_following_alpha" PROGRAMS "src/dist_finder_alpha.py" "src/control_alpha.py" "DESTINATION" "lib/wall_following_alpha")
+# install(PROGRAMS "src/dist_finder_alpha.py" "src/control_alpha.py" "src/gap_finder.py" "src/control_alpha_gap.py" "DESTINATION" "lib/wall_following_alpha")
+ament_cmake_symlink_install_programs("/home/ivan/ros2_ws_2501/src/wall_following_alpha" PROGRAMS "src/dist_finder_alpha.py" "src/control_alpha.py" "src/gap_finder.py" "src/control_alpha_gap.py" "DESTINATION" "lib/wall_following_alpha")
 
 # install(DIRECTORY "launch" "src" "DESTINATION" "share/wall_following_alpha")
 ament_cmake_symlink_install_directory("/home/ivan/ros2_ws_2501/src/wall_following_alpha" DIRECTORY "launch" "src" "DESTINATION" "share/wall_following_alpha")
