@@ -21,7 +21,7 @@ public:
         brake_publisher_ = this->create_publisher<geometry_msgs::msg::Twist>("/cmd_vel_break", 10);
 
         // Valor umbral de TTC para iniciar el frenado (en segundos)
-        ttc_threshold_ = 0.2;
+        ttc_threshold_ = 1.2;
         current_velocity_ = 0.0;  // Inicializamos la velocidad en 0
     }
 

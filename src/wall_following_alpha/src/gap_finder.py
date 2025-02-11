@@ -25,10 +25,10 @@ class GapFinder(Node):
         # Parámetros de configuración
         # Inicializar variables
         self.gap_setpoint = 0.0  # Setpoint basado en el ángulo medio del gap
-        self.angle_min = -75.0  # Grados
-        self.angle_max = 75.0   # Grados
-        self.threshold = 2.0    # Umbral para considerar valores como obstáculos
-        self.safety_radius = 0.5
+        self.angle_min = -65.0  # Grados
+        self.angle_max = 65.0   # Grados
+        self.threshold = 3.0    # Umbral para considerar valores como obstáculos
+        self.safety_radius = 0.3
 
         self.get_logger().info("Nodo GapFinder iniciado correctamente.")
 
@@ -51,7 +51,7 @@ class GapFinder(Node):
         filtered_ranges = []
         for i, distance in enumerate(msg.ranges[index_min:index_max + 1]):
             if math.isinf(distance):
-                filtered_ranges.append(distance)  # Conservar los valores infinitos
+                filtered_ranges.append(12.0)  # Conservar los valores infinitos
             elif distance < self.threshold:
                 filtered_ranges.append(0.0)  # Valores por debajo del umbral se ponen en 0.0
             else:
@@ -101,7 +101,112 @@ class GapFinder(Node):
                 filtered_ranges[i] = 0.0
 
         # Depuración: Mostrar rangos después de aplicar la burbuja
-        self.get_logger().info(f"Rangos filtrados (post-burbuja): {filtered_ranges}")
+        self.get_logger().info(f"Rangos filtrados (minimo): {filtered_ranges}")
+
+            # Identificar los gaps (regiones contiguas de valores > 0)
+        valid_distances = [(i, d) for i, d in enumerate(filtered_ranges) if d > 0]
+
+        if not valid_distances:
+            self.get_logger().warn("No se encontraron puntos válidos para la burbuja de seguridad.")
+            return
+
+        bubble_radius = self.safety_radius
+        angle_increment = msg.angle_increment
+
+        gaps = []
+        current_gap = []
+
+        for index, distance in valid_distances:
+            if not current_gap or index == current_gap[-1][0] + 1:
+                current_gap.append((index, distance))
+            else:
+                gaps.append(current_gap)
+                current_gap = [(index, distance)]
+
+        # Agregar el último gap si no está vacío
+        if current_gap:
+            gaps.append(current_gap)
+
+        # Procesar cada gap y aplicar la burbuja en el valor mínimo de cada uno
+        for gap in gaps:
+
+            # Aplicar burbujas en los extremos del gap
+            # Extremo inferior del gap
+            start_index, start_distance = gap[0]
+            affected_angle = math.atan(bubble_radius / 2.0) if start_distance > 0 else math.pi
+            affected_indices = int(affected_angle / angle_increment)
+
+            for i in range(max(0, start_index - affected_indices), min(len(filtered_ranges), start_index + affected_indices + 1)):
+                if filtered_ranges[i] > 0:
+                    filtered_ranges[i] = 0.0
+
+            # Extremo superior del gap
+            end_index, end_distance = gap[-1]
+            affected_angle = math.atan(bubble_radius / 2.0) if end_distance > 0 else math.pi
+            affected_indices = int(affected_angle / angle_increment)
+
+            for i in range(max(0, end_index - affected_indices), min(len(filtered_ranges), end_index + affected_indices + 1)):
+                if filtered_ranges[i] > 0:
+                    filtered_ranges[i] = 0.0
+
+            # Depuración: Mostrar rangos después de aplicar la burbuja
+        self.get_logger().info(f"Rangos filtrados (extremos): {filtered_ranges}")
+
+            # Identificar los gaps (regiones contiguas de valores > 0)
+
+        valid_distances = [(i, d) for i, d in enumerate(filtered_ranges) if d > 0]
+
+        if not valid_distances:
+            self.get_logger().warn("No se encontraron puntos válidos para la burbuja de seguridad.")
+            return
+
+        bubble_radius = self.safety_radius
+        angle_increment = msg.angle_increment
+
+        gaps = []
+        current_gap = []
+
+        for index, distance in valid_distances:
+            if not current_gap or index == current_gap[-1][0] + 1:
+                current_gap.append((index, distance))
+            else:
+                gaps.append(current_gap)
+                current_gap = [(index, distance)]
+
+        # Agregar el último gap si no está vacío
+        if current_gap:
+            gaps.append(current_gap)
+
+        # Procesar cada gap y aplicar la burbuja en el valor mínimo de cada uno
+        for gap in gaps:
+
+            # Encontrar el valor más lejano en el gap
+            farthest_index, farthest_distance = max(gap, key=lambda x: x[1])
+
+            # Depuración: Mostrar rangos después de aplicar la burbuja
+            self.get_logger().info(f"valor mas lejano: {farthest_distance}, indice: {farthest_index}")
+
+            # Calcular el rango angular afectado por la burbuja grande
+            # Puedes aumentar el factor de multiplicación para hacer la burbuja más grande
+            affected_angle = math.atan(1.5 / farthest_distance) if farthest_distance > 0 else math.pi
+            affected_indices = int(affected_angle / angle_increment)
+
+            # Aplicar la burbuja más grande: Establecer en 0 los puntos dentro del rango
+            for i in range(max(0, farthest_index - affected_indices), min(len(filtered_ranges), farthest_index + affected_indices + 1)):
+                filtered_ranges[i] = 4.0
+            
+
+        # Depuración: Mostrar rangos después de aplicar la burbuja
+        self.get_logger().info(f"Rangos filtrados (mas lejano): {filtered_ranges}")
+
+        valid_distances = [(i, d) for i, d in enumerate(filtered_ranges) if d > 0]
+
+        if not valid_distances:
+            self.get_logger().warn("No se encontraron puntos válidos para la burbuja de seguridad.")
+            return
+
+        bubble_radius = self.safety_radius
+        angle_increment = msg.angle_increment
 
         # Encontrar gaps (brechas)
         gaps = []
