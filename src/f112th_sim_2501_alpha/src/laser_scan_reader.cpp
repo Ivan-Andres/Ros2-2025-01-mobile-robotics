@@ -21,7 +21,7 @@ public:
         brake_publisher_ = this->create_publisher<geometry_msgs::msg::Twist>("/cmd_vel_break", 10);
 
         // Valor umbral de TTC para iniciar el frenado (en segundos)
-        ttc_threshold_ = 1.2;
+        ttc_threshold_ = 1.0;
         current_velocity_ = 0.0;  // Inicializamos la velocidad en 0
     }
 
@@ -30,8 +30,8 @@ private:
     {
     // Encontrar la distancia mínima frente al vehículo
         float min_distance = std::numeric_limits<float>::infinity();
-        int start_index = (msg->ranges.size() / 2) - 5;  // Ángulo cercano a 0°
-        int end_index = (msg->ranges.size() / 2) + 5;
+        int start_index = (msg->ranges.size() / 2) - 10;  // Ángulo cercano a 0°
+        int end_index = (msg->ranges.size() / 2) + 10;
 
         RCLCPP_INFO(this->get_logger(), "Objetos frente al carro:");
 

@@ -1,3 +1,0 @@
-[console_scripts]
-ldr_cntrl = ldr_node2.ldr_cntrl:main
-

@@ -1,1 +1,0 @@
-/home/ivan/ros2_ws_2501/src/ldr_node2/setup.py
