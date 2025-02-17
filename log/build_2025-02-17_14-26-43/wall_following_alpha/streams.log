@@ -1,0 +1,31 @@
+[0.259s] Invoking command in '/home/ivan/ros2_ws_2501/build/wall_following_alpha': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivan/ros2_ws_2501/install/joy_tester:/opt/ros/humble /usr/bin/cmake --build /home/ivan/ros2_ws_2501/build/wall_following_alpha -- -j12 -l12
+[0.286s] Invoked command in '/home/ivan/ros2_ws_2501/build/wall_following_alpha' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivan/ros2_ws_2501/install/joy_tester:/opt/ros/humble /usr/bin/cmake --build /home/ivan/ros2_ws_2501/build/wall_following_alpha -- -j12 -l12
+[0.287s] Invoking command in '/home/ivan/ros2_ws_2501/build/wall_following_alpha': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivan/ros2_ws_2501/install/joy_tester:/opt/ros/humble /usr/bin/cmake --install /home/ivan/ros2_ws_2501/build/wall_following_alpha
+[0.303s] -- Install configuration: ""
+[0.303s] -- Execute custom install script
+[0.303s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/wall_following_alpha/lib/wall_following_alpha/dist_finder_alpha.py
+[0.303s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/wall_following_alpha/lib/wall_following_alpha/control_alpha.py
+[0.303s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/wall_following_alpha/lib/wall_following_alpha/gap_finder.py
+[0.303s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/wall_following_alpha/lib/wall_following_alpha/control_alpha_gap.py
+[0.303s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/wall_following_alpha/share/wall_following_alpha/launch/gap_following_alpha.launch.py
+[0.303s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/wall_following_alpha/share/wall_following_alpha/launch/wall_following_alpha.launch.py
+[0.303s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/wall_following_alpha/share/wall_following_alpha/src/control_alpha.py
+[0.303s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/wall_following_alpha/share/wall_following_alpha/src/control_alpha_gap.py
+[0.303s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/wall_following_alpha/share/wall_following_alpha/src/dist_finder_alpha.py
+[0.303s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/wall_following_alpha/share/wall_following_alpha/src/gap_finder.py
+[0.303s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/wall_following_alpha/share/ament_index/resource_index/package_run_dependencies/wall_following_alpha
+[0.303s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/wall_following_alpha/share/ament_index/resource_index/parent_prefix_path/wall_following_alpha
+[0.304s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/wall_following_alpha/share/wall_following_alpha/environment/ament_prefix_path.sh
+[0.304s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/wall_following_alpha/share/wall_following_alpha/environment/ament_prefix_path.dsv
+[0.304s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/wall_following_alpha/share/wall_following_alpha/environment/path.sh
+[0.304s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/wall_following_alpha/share/wall_following_alpha/environment/path.dsv
+[0.304s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/wall_following_alpha/share/wall_following_alpha/local_setup.bash
+[0.304s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/wall_following_alpha/share/wall_following_alpha/local_setup.sh
+[0.304s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/wall_following_alpha/share/wall_following_alpha/local_setup.zsh
+[0.304s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/wall_following_alpha/share/wall_following_alpha/local_setup.dsv
+[0.304s] -- Symlinking: /home/ivan/ros2_ws_2501/install/wall_following_alpha/share/wall_following_alpha/package.dsv
+[0.304s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/wall_following_alpha/share/ament_index/resource_index/packages/wall_following_alpha
+[0.304s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/wall_following_alpha/share/wall_following_alpha/cmake/wall_following_alphaConfig.cmake
+[0.304s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/wall_following_alpha/share/wall_following_alpha/cmake/wall_following_alphaConfig-version.cmake
+[0.304s] -- Up-to-date symlink: /home/ivan/ros2_ws_2501/install/wall_following_alpha/share/wall_following_alpha/package.xml
+[0.306s] Invoked command in '/home/ivan/ros2_ws_2501/build/wall_following_alpha' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivan/ros2_ws_2501/install/joy_tester:/opt/ros/humble /usr/bin/cmake --install /home/ivan/ros2_ws_2501/build/wall_following_alpha
